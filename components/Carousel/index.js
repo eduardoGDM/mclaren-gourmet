@@ -12,7 +12,7 @@ const Carousel = () => {
             <div className="font-Maxwell flex flex-col justify-between  md:flex-row p-20 ">  
              <span className="text-xs flex justify-center">Para continuar,clique em Realizar Pedido</span>
               <div className="p-5">
-                <figure className="relative max-w-sm hover:scale-110 rounded-lg shadow-xl dark:shadow-gray-900 cursor-pointer filter">
+                <figure className="relative max-w-sm hover:scale-110 rounded-lg shadow-md dark:shadow-gray-900 cursor-pointer filter">
                 <a href="#">
                     <img className="rounded-lg object-cover" src="Palha.jpg" alt="image description"/>
                 </a>
