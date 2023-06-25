@@ -8,6 +8,7 @@ const Menu = () => {
                      <img className="w-full h-full" src="logo2.png" alt="image description"/>
                             <figcaption className="mt-[-10%] text-cyan-800 text-3xl text-center underline">
                                 Palha Italiana  -  Brownie  -   Empadão  </figcaption>
+
                                 
  </div> 
  </figure>

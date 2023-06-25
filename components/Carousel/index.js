@@ -9,26 +9,23 @@ const Carousel = () => {
     },[count])
     return (
         <Fragment>
-            <div className="font-Maxwell flex flex-col justify-between  md:flex-row p-20 ">  
-             <span className="text-xs flex justify-center">Para continuar,clique em Realizar Pedido</span>
+            <div className="text-cyan-500 flex flex-col justify-between font-olivia  md:flex-row p-20 ">  
               <div className="p-5">
                 <figure className="relative max-w-sm hover:scale-110 rounded-lg shadow-md dark:shadow-gray-900 cursor-pointer filter">
                 <a href="#">
                     <img className="rounded-lg object-cover" src="Palha.jpg" alt="image description"/>
                 </a>
-                <figcaption className="absolute rounded-lg px-4 text-lg text-white  bg-[#633112]   bottom-4">
-                
+                <figcaption className="absolute rounded-lg px-4 text-sm text-white  bg-[#633112] bottom-4">
                 </figcaption>
                 </figure>
 
                 <div className="flex p-[9%]">
       <button disabled = { count < 1 ? true : false} onClick={()=> setCount(count - 1 )} className="bg-white hover:bg-gray-200 text-gray-800 font-bold py-2 px-4 rounded-full">-</button>
-      <span className="p-2"> Unidades: {count}</span>
+      <span className="p-2 "> Unidades: {count}</span>
          <button onClick={()=> setCount(count + 1 )} className="bg-white hover:bg-gray-200 text-gray-800 font-bold py-2 px-4 rounded-full">+</button>
         
     </div>
-    
-                
+
          </div> 
         
     
